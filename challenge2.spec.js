@@ -12,7 +12,7 @@ import {
   oddsSmallerThan,
   squareOrDouble,
   // ageFromBirthDate,
-} from "./functions";
+} from "./challenge2";
 
 describe("greet(name)", () => {
   test("logs 'Hello <name>'", () => {
