@@ -49,5 +49,3 @@ function oddsSmallerThan(n) {
 function squareOrDouble(n) {
   // Your code here
 }
-
-module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
