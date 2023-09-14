@@ -8,7 +8,9 @@
  */
 function greet(name) {
   // Your code here
+  console.log(name)
 }
+greet("van")
 
 /**
  * isOdd(n):
@@ -21,7 +23,15 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  if(n%2 == 0){
+    console.log(true)
+  }else{
+    console.log(false)
+  }
+
 }
+
+isOdd(10)
 
 /**
  * oddsSmallerThan(n):
@@ -34,7 +44,16 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+
+  if(n%2==0){
+    console.log(n/2)
+  }else{
+    console.log((n-1)/2)
+  }
+
 }
+
+oddsSmallerThan(8)
 
 /**
  * squareOrDouble(n):
@@ -48,4 +67,13 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+
+  if(n%2==0){
+    return n*2
+  }else{
+    return n*n
+  }
+
 }
+
+console.log(squareOrDouble(19))
